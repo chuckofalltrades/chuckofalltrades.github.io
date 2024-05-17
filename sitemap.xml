@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="https://chuckofalltrades.github.io/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://charlespalmer.me/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
-<loc>https://chuckofalltrades.github.io/</loc>
+<loc>https://charlespalmer.me/</loc>
 </url>
 <url>
-<loc>https://chuckofalltrades.github.io/decisions-decisions.html</loc>
+<loc>https://charlespalmer.me/decisions-decisions.html</loc>
 <lastmod>2024-05-17T12:26:01-05:00</lastmod>
 </url>
 <url>
-<loc>https://chuckofalltrades.github.io/hello-world-for-real-this-time.html</loc>
+<loc>https://charlespalmer.me/decisions-part-2-authoring-tool.html</loc>
+<lastmod>2024-05-17T13:55:01-05:00</lastmod>
+<image:image>
+<image:loc>https://charlespalmer.me/media/posts/4/PubliiUI.png</image:loc>
+<image:title><![CDATA[Screenshot of Publii UI writing this very article]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://charlespalmer.me/hello-world-for-real-this-time.html</loc>
 <lastmod>2024-05-17T11:42:39-05:00</lastmod>
 <image:image>
-<image:loc>https://chuckofalltrades.github.io/media/posts/2/waving-hello.png</image:loc>
+<image:loc>https://charlespalmer.me/media/posts/2/waving-hello.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://chuckofalltrades.github.io/hello-world.html</loc>
+<loc>https://charlespalmer.me/hello-world.html</loc>
 <lastmod>2024-04-30T09:18:27-05:00</lastmod>
 </url>
 </urlset>
