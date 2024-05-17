@@ -1,0 +1,27 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Hi, I&#x27;m Charles Palmer!",
+    "description": "",
+    "home_page_url": "https://chuckofalltrades.github.io",
+    "feed_url": "https://chuckofalltrades.github.io/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Charles Palmer"
+    },
+    "items": [
+        {
+            "id": "https://chuckofalltrades.github.io/hello-world.html",
+            "url": "https://chuckofalltrades.github.io/hello-world.html",
+            "title": "Hello world!",
+            "summary": "Gotta have a first post right? Well this is it! Don't get too excited, because it's coming to an end... now.",
+            "content_html": "<p>Gotta have a first post right?  Well this is it!  Don't get too excited, because it's coming to an end... now.</p>",
+            "author": {
+                "name": "Charles Palmer"
+            },
+            "tags": [
+            ],
+            "date_published": "2024-04-30T09:18:27-05:00",
+            "date_modified": "2024-04-30T09:18:27-05:00"
+        }
+    ]
+}

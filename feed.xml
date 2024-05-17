@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Hi, I&#x27;m Charles Palmer!</title>
+    <link href="https://chuckofalltrades.github.io/feed.xml" rel="self" />
+    <link href="https://chuckofalltrades.github.io" />
+    <updated>2024-04-30T09:18:27-05:00</updated>
+    <author>
+        <name>Charles Palmer</name>
+    </author>
+    <id>https://chuckofalltrades.github.io</id>
+
+    <entry>
+        <title>Hello world!</title>
+        <author>
+            <name>Charles Palmer</name>
+        </author>
+        <link href="https://chuckofalltrades.github.io/hello-world.html"/>
+        <id>https://chuckofalltrades.github.io/hello-world.html</id>
+
+        <updated>2024-04-30T09:18:27-05:00</updated>
+            <summary>
+                <![CDATA[
+                    Gotta have a first post right? Well this is it! Don't get too excited, because it's coming to an end... now.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Gotta have a first post right?  Well this is it!  Don't get too excited, because it's coming to an end... now.</p>
+            ]]>
+        </content>
+    </entry>
+</feed>
