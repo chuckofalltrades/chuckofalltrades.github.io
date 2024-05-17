@@ -10,6 +10,24 @@
     },
     "items": [
         {
+            "id": "https://chuckofalltrades.github.io/decisions-decisions.html",
+            "url": "https://chuckofalltrades.github.io/decisions-decisions.html",
+            "title": "Decisions, decisions...",
+            "summary": "The next big thing I had to do was make a series of decisions about how to build this whole portfolio. One of the underlying problems with creating this kind of site is having good storage space that’s easy to add e-learning content to for&hellip;",
+            "content_html": "<p class=\"p1\">The next big thing I had to do was make a series of decisions about how to build this whole portfolio. One of the underlying problems with creating this kind of site is having good storage space that’s easy to add e-learning content to for portfolio purposes. I don’t need an LMS; I’m not hosting e-learning content with the intent of people taking it and tracking it. All I really need is a storage place to stick published files.</p>\n<p class=\"p1\">I’ve set up many websites in my time and I'm familiar with working in the web development space, but I don’t really want to pay for this and I don’t want to have to manage a server and deal with administering a site from the ground up. I want this to be smooth and simple so I can focus on the projects themselves. Free or less expensive solutions that aren’t an entire web server environment tend to come with too many limitations on things like storage space. Storage space is critical because these e-learning packages can get quite large, especially if I have many of them. If I start adding more advanced content, the issue only worsens.</p>\n<p class=\"p1\">Luckily, everything I’m working with here are just flat files. Nothing I’m trying to do requires server-side interactions (at least not off the bat). This simplified my options. Then it occurred to me that the simplest option was staring me right in the face: <em><strong>elearning is web design.</strong></em> This is something I’ve preached about before and will probably write a dedicated article on soon. When you’re authoring e-learning content, you are doing web design. You are creating HTML, CSS, and JavaScript files, just using a visual editing tool designed for a specific end purpose.</p>\n<p class=\"p1\">If I were doing pure web design projects, part of my workflow would involve Git and Github (or Gitlab etc).  And I happen to know that Github has a free feature called Pages that can turn a Git repository into a web page very easily. So why not just use that? It’s easy to use and has no additional cost. Storage space is huge, and you won’t run into problems with GitHub unless you’re doing some weird stuff with your repositories. Any typical web design or e-learning project will be well within their expected size range.</p>\n<p class=\"p1\">Plus, GitHub adds other useful functions. As I’ve discussed before and will likely write about soon, there’s a need for better version control in e-learning development. That’s the whole point of Git. GitHub allows for collaboration and writing documentation directly into the project, project management, and more. Honestly, it’s something we as an industry should be doing anyway.</p>\n<p class=\"p1\">So, I’m going to build my portfolio using GitHub Pages.  No cost, flexible, plus it will give me a platform to experiment and demo when I talk about elearning use of Git and version control in the future. And if you're reading this, it worked!</p>",
+            "author": {
+                "name": "Charles Palmer"
+            },
+            "tags": [
+                   "web-design",
+                   "meta",
+                   "git",
+                   "elearning"
+            ],
+            "date_published": "2024-05-03T12:25:00-05:00",
+            "date_modified": "2024-05-17T12:26:01-05:00"
+        },
+        {
             "id": "https://chuckofalltrades.github.io/hello-world-for-real-this-time.html",
             "url": "https://chuckofalltrades.github.io/hello-world-for-real-this-time.html",
             "title": "Hello world, for real this time!",
