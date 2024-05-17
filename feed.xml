@@ -3,12 +3,38 @@
     <title>Hi, I&#x27;m Charles Palmer!</title>
     <link href="https://chuckofalltrades.github.io/feed.xml" rel="self" />
     <link href="https://chuckofalltrades.github.io" />
-    <updated>2024-04-30T09:18:27-05:00</updated>
+    <updated>2024-05-17T11:42:39-05:00</updated>
     <author>
         <name>Charles Palmer</name>
     </author>
     <id>https://chuckofalltrades.github.io</id>
 
+    <entry>
+        <title>Hello world, for real this time!</title>
+        <author>
+            <name>Charles Palmer</name>
+        </author>
+        <link href="https://chuckofalltrades.github.io/hello-world-for-real-this-time.html"/>
+        <id>https://chuckofalltrades.github.io/hello-world-for-real-this-time.html</id>
+        <media:content url="https://chuckofalltrades.github.io/media/posts/2/waving-hello.png" medium="image" />
+            <category term="meta"/>
+
+        <updated>2024-05-03T11:36:00-05:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://chuckofalltrades.github.io/media/posts/2/waving-hello.png" alt="" />
+                    Hello there! I am up and running with my new site here for my personal/professional portfolio and associated blog. Now that I’ve got it up and running, I figure I should go back and add a few initial articles to explain how I got here!&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://chuckofalltrades.github.io/media/posts/2/waving-hello.png" class="type:primaryImage" alt="" /></p>
+                <p class="p1">Hello there!  I am up and running with my new site here for my personal/professional portfolio and associated blog. Now that I’ve got it up and running, I figure I should go back and add a few initial articles to explain how I got here!</p>
+<p class="p1">The starting place is that I have recently been “impacted” at my job, meaning that I no longer have that job. This has got me thinking about my future and the potential need to look for jobs outside of my current company. Since I have no real presence outside my current company today, it’s time to create one.</p>
+<p class="p1">This site will act as a place for me to store projects and serve as a portfolio should I seek jobs externally. Additionally, I want to start sharing my innovations and recording them in a more public format so that others in my industry can hopefully learn from me. I believe I have something valuable to share!  So whether you're here as a potential employer, or as a fellow L&amp;D professional, welcome!</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Hello world!</title>
         <author>
