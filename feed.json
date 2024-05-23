@@ -1,10 +1,11 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Hi, I&#x27;m Charles Palmer!",
+    "title": "Charles Palmer",
     "description": "",
     "home_page_url": "https://charlespalmer.me",
     "feed_url": "https://charlespalmer.me/feed.json",
     "user_comment": "",
+    "icon": "https://charlespalmer.me/media/website/nologologo.png",
     "author": {
         "name": "Charles Palmer"
     },
