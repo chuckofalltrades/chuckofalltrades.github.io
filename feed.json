@@ -11,6 +11,23 @@
     },
     "items": [
         {
+            "id": "https://charlespalmer.me/i-need-to-break-this-down-better.html",
+            "url": "https://charlespalmer.me/i-need-to-break-this-down-better.html",
+            "title": "I need to break this down better...",
+            "summary": "I'm trying to accomplish: With these limitations: Current state: This is working ok but I have the following issues before calling it done: Today I will work on the domain issue.",
+            "content_html": "<p>I'm trying to accomplish:</p>\n<ul>\n<li>A place to host portfolio content in a variety of formats such as images, videos, or interactive web-based elearning content</li>\n<li>An \"About Me\" resume type site to sell myself to potential clients and employers</li>\n<li>A blog with content that documents my ideas, project processes, and thought leadership in support of the above</li>\n</ul>\n<p>With these limitations:</p>\n<ul>\n<li>I do not want to spend money on this if possible</li>\n<li>It must be easy to maintain</li>\n<li>It must be flexible to support experimentation and demonstration of things I haven't thought of yet</li>\n<li>It should be universally accessible and avoid hosts or domains that might be blocked by potential clients or employers</li>\n</ul>\n<p>Current state:</p>\n<ul>\n<li>Hosting using Github Pages (free)</li>\n<li>Managing blog and general site with Publii</li>\n</ul>\n<p>This is working ok but I have the following issues before calling it done:</p>\n<ul>\n<li>My domain (charlespalmer.me) is apparently not a great idea for accessibility.  My current employer for instance flags it as suspicious, which prevent active content (like my elearning examples) from working.  I'm assuming this is the .me TLD.</li>\n<li>I don't love the customization in Publii. I like the app and simplicity of authoring/editing, but unless I build a custom theme I'm pretty limited in style.</li>\n</ul>\n<p>Today I will work on the domain issue.</p>",
+            "author": {
+                "name": "Charles Palmer"
+            },
+            "tags": [
+                   "web-design",
+                   "meta",
+                   "content-management-systems"
+            ],
+            "date_published": "2024-05-31T11:07:59-05:00",
+            "date_modified": "2024-05-31T11:07:59-05:00"
+        },
+        {
             "id": "https://charlespalmer.me/decisions-part-2-authoring-tool.html",
             "url": "https://charlespalmer.me/decisions-part-2-authoring-tool.html",
             "title": "Decisions Part 2: Authoring Tool",
