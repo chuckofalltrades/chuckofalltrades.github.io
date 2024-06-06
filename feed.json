@@ -11,83 +11,18 @@
     },
     "items": [
         {
-            "id": "https://charlesofalltrades.com/i-need-to-break-this-down-better.html",
-            "url": "https://charlesofalltrades.com/i-need-to-break-this-down-better.html",
-            "title": "I need to break this down better...",
-            "summary": "I'm trying to accomplish: With these limitations: Current state: This is working ok but I have the following issues before calling it done: Today I will work on the domain issue.",
-            "content_html": "<p>I'm trying to accomplish:</p>\n<ul>\n<li>A place to host portfolio content in a variety of formats such as images, videos, or interactive web-based elearning content</li>\n<li>An \"About Me\" resume type site to sell myself to potential clients and employers</li>\n<li>A blog with content that documents my ideas, project processes, and thought leadership in support of the above</li>\n</ul>\n<p>With these limitations:</p>\n<ul>\n<li>I do not want to spend money on this if possible</li>\n<li>It must be easy to maintain</li>\n<li>It must be flexible to support experimentation and demonstration of things I haven't thought of yet</li>\n<li>It should be universally accessible and avoid hosts or domains that might be blocked by potential clients or employers</li>\n</ul>\n<p>Current state:</p>\n<ul>\n<li>Hosting using Github Pages (free)</li>\n<li>Managing blog and general site with Publii</li>\n</ul>\n<p>This is working ok but I have the following issues before calling it done:</p>\n<ul>\n<li>My domain (charlespalmer.me) is apparently not a great idea for accessibility.  My current employer for instance flags it as suspicious, which prevent active content (like my elearning examples) from working.  I'm assuming this is the .me TLD.</li>\n<li>I don't love the customization in Publii. I like the app and simplicity of authoring/editing, but unless I build a custom theme I'm pretty limited in style.</li>\n</ul>\n<p>Today I will work on the domain issue.</p>",
-            "author": {
-                "name": "Charles Palmer"
-            },
-            "tags": [
-                   "web-design",
-                   "meta",
-                   "content-management-systems"
-            ],
-            "date_published": "2024-05-31T11:07:59-05:00",
-            "date_modified": "2024-05-31T11:07:59-05:00"
-        },
-        {
-            "id": "https://charlesofalltrades.com/decisions-part-2-authoring-tool.html",
-            "url": "https://charlesofalltrades.com/decisions-part-2-authoring-tool.html",
-            "title": "Decisions Part 2: Authoring Tool",
-            "summary": "I’ve established my goal to create a portfolio site. I’ve decided to use GitHub Pages to host it. Now I need to decide on the tools to build and maintain it. The simplest thing to do here would be some very simple HTML with a&hellip;",
-            "content_html": "<p class=\"p1\">I’ve established my goal to create a portfolio site. I’ve decided to use GitHub Pages to host it. Now I need to decide on the tools to build and maintain it.</p>\n<p class=\"p1\">The simplest thing to do here would be some very simple HTML with a list of links. If all this is a pure portfolio, that could work.  My plan is for each project to be a GitHub repository, turn on Pages, and bam, you have a link that lets somebody explore that piece of training content. I could just take all those links, stick them on a simple page, and use one of the many templates out there to make it look nice. That would certainly work, but I don’t want this to be just a pure portfolio.</p>\n<p class=\"p1\">It’s also important to me to have a blogging aspect because I want to write about these projects and why I do the different things I do. I also want to write about innovations, ideas, tips, tricks, and that sort of thing. So, I need some sort of content management system (CMS).</p>\n<p class=\"p1\">When you are exploring GitHub Pages, one of the things that will pop up a lot is <a href=\"https://jekyllrb.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Jekyll</a>. Jekyll is an extremely popular static site generator, and that’s what I thought I needed. But when I finally got around to this step and actually looked at Jekyll closely, I realized it was not what I was looking for. Jekyll is really designed with a developer in mind to write content in a very simple way using markdown files. Then Jekyll does the work of converting that into flat HTML files that you then put on your host. I could use that, but that again takes away from my objective of making this site seamless for me so I can focus on the projects.</p>\n<p class=\"p1\">I searched for alternatives to Jekyll and found a lot. I looked at <a href=\"https://gohugo.io/\" target=\"_blank\" rel=\"noopener noreferrer\">Hugo</a>, <a href=\"https://decapcms.org/\" target=\"_blank\" rel=\"noopener noreferrer\">Decap</a>, and <a href=\"https://www.gatsbyjs.com/docs/\" target=\"_blank\" rel=\"noopener noreferrer\">Gatsby</a>. I realized I was going way too far down the wrong path. I was looking at either these static site generators intended to be command-line tools without much of a front end, or stepping back into traditional CMSs that require a backend server to function. These are not what I needed. I backed up and started searching specifically for a flat file generator CMS. After a little bit of digging around, I came across a few options and ultimately decided on one called <a href=\"https://getpublii.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Publii</a>.</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://charlesofalltrades.com/media/posts/4/PubliiUI.png\" alt=\"Screenshot of Publii UI writing this very article\" width=\"1651\" height=\"983\" sizes=\"(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)\" srcset=\"https://charlesofalltrades.com/media/posts/4/responsive/PubliiUI-xs.png 300w ,https://charlesofalltrades.com/media/posts/4/responsive/PubliiUI-sm.png 480w ,https://charlesofalltrades.com/media/posts/4/responsive/PubliiUI-md.png 768w\"><figcaption>Writing this very article, so meta!</figcaption></figure>\n<p class=\"p1\">Publii is an application available for both Windows and Mac. I didn’t really want to go with an application originally because I feel like that locks in my whole process to one computer. But to do what I want to do, I think it’s going to have to be that kind of solution. The more I poked around at Publii, the more I realized it’s pretty much exactly what I wanted. It’s a CMS, like WordPress or Drupal, but it doesn’t work like a traditional CMS running server side. It just publishes out your content into flat files, which then can be pushed to my Git repo. It’s cool because it even has integration to do that directly, it turns out to be a very seamless process</p>\n<p class=\"p1\">I’m really liking the tool so far. I’m writing this article in it right now. It’s got all the formatting tools I would expect for a visual editor, but it also has a lot of power under the hood that I can poke around at. What’s nice is because what it’s spitting out are pretty clean flat files, if I want to do something really complicated, there’s nothing stopping me from going into those flat files and editing them directly.</p>\n<p class=\"p1\">So, the solution is starting to come together. I’m hosting on GitHub Pages. I’m going to author and manage using Publii. So far, so good.</p>",
+            "id": "https://charlesofalltrades.com/hello-there.html",
+            "url": "https://charlesofalltrades.com/hello-there.html",
+            "title": "Hello There!",
+            "summary": "Welcome to the placeholder for my portfolio and blog focused on learning and development, e-learning, and learning technology! Here, I'll share my experiments and thoughts on improving learning effectiveness for adults and how to apply technology to training materials. I'm working on articles about using generative AI tools, accessibility for neurodivergent audiences, using animation in e-learning, and much more. Stay tuned for updates and content coming soon!",
+            "content_html": "<p>Welcome to the placeholder for my portfolio and blog focused on learning and development, e-learning, and learning technology! Here, I'll share my experiments and thoughts on improving learning effectiveness for adults and how to apply technology to training materials.<br><br>I'm working on articles about using generative AI tools, accessibility for neurodivergent audiences, using animation in e-learning, and much more.<br><br>Stay tuned for updates and content coming soon!</p>",
             "author": {
                 "name": "Charles Palmer"
             },
             "tags": [
             ],
-            "date_published": "2024-05-05T13:54:00-05:00",
-            "date_modified": "2024-05-17T13:55:01-05:00"
-        },
-        {
-            "id": "https://charlesofalltrades.com/decisions-decisions.html",
-            "url": "https://charlesofalltrades.com/decisions-decisions.html",
-            "title": "Decisions, decisions...",
-            "summary": "The next big thing I had to do was make a series of decisions about how to build this whole portfolio. One of the underlying problems with creating this kind of site is having good storage space that’s easy to add e-learning content to for&hellip;",
-            "content_html": "<p class=\"p1\">The next big thing I had to do was make a series of decisions about how to build this whole portfolio. One of the underlying problems with creating this kind of site is having good storage space that’s easy to add e-learning content to for portfolio purposes. I don’t need an LMS; I’m not hosting e-learning content with the intent of people taking it and tracking it. All I really need is a storage place to stick published files.</p>\n<p class=\"p1\">I’ve set up many websites in my time and I'm familiar with working in the web development space, but I don’t really want to pay for this and I don’t want to have to manage a server and deal with administering a site from the ground up. I want this to be smooth and simple so I can focus on the projects themselves. Free or less expensive solutions that aren’t an entire web server environment tend to come with too many limitations on things like storage space. Storage space is critical because these e-learning packages can get quite large, especially if I have many of them. If I start adding more advanced content, the issue only worsens.</p>\n<p class=\"p1\">Luckily, everything I’m working with here are just flat files. Nothing I’m trying to do requires server-side interactions (at least not off the bat). This simplified my options. Then it occurred to me that the simplest option was staring me right in the face: <em><strong>elearning is web design.</strong></em> This is something I’ve preached about before and will probably write a dedicated article on soon. When you’re authoring e-learning content, you are doing web design. You are creating HTML, CSS, and JavaScript files, just using a visual editing tool designed for a specific end purpose.</p>\n<p class=\"p1\">If I were doing pure web design projects, part of my workflow would involve Git and Github (or Gitlab etc).  And I happen to know that Github has a free feature called Pages that can turn a Git repository into a web page very easily. So why not just use that? It’s easy to use and has no additional cost. Storage space is huge, and you won’t run into problems with GitHub unless you’re doing some weird stuff with your repositories. Any typical web design or e-learning project will be well within their expected size range.</p>\n<p class=\"p1\">Plus, GitHub adds other useful functions. As I’ve discussed before and will likely write about soon, there’s a need for better version control in e-learning development. That’s the whole point of Git. GitHub allows for collaboration and writing documentation directly into the project, project management, and more. Honestly, it’s something we as an industry should be doing anyway.</p>\n<p class=\"p1\">So, I’m going to build my portfolio using GitHub Pages.  No cost, flexible, plus it will give me a platform to experiment and demo when I talk about elearning use of Git and version control in the future. And if you're reading this, it worked!</p>",
-            "author": {
-                "name": "Charles Palmer"
-            },
-            "tags": [
-                   "web-design",
-                   "meta",
-                   "git",
-                   "elearning"
-            ],
-            "date_published": "2024-05-03T12:25:00-05:00",
-            "date_modified": "2024-05-17T12:26:01-05:00"
-        },
-        {
-            "id": "https://charlesofalltrades.com/hello-world-for-real-this-time.html",
-            "url": "https://charlesofalltrades.com/hello-world-for-real-this-time.html",
-            "title": "Hello world, for real this time!",
-            "summary": "Hello there! I am up and running with my new site here for my personal/professional portfolio and associated blog. Now that I’ve got it up and running, I figure I should go back and add a few initial articles to explain how I got here!&hellip;",
-            "content_html": "<p class=\"p1\">Hello there!  I am up and running with my new site here for my personal/professional portfolio and associated blog. Now that I’ve got it up and running, I figure I should go back and add a few initial articles to explain how I got here!</p>\n<p class=\"p1\">The starting place is that I have recently been “impacted” at my job, meaning that I no longer have that job. This has got me thinking about my future and the potential need to look for jobs outside of my current company. Since I have no real presence outside my current company today, it’s time to create one.</p>\n<p class=\"p1\">This site will act as a place for me to store projects and serve as a portfolio should I seek jobs externally. Additionally, I want to start sharing my innovations and recording them in a more public format so that others in my industry can hopefully learn from me. I believe I have something valuable to share!  So whether you're here as a potential employer, or as a fellow L&amp;D professional, welcome!</p>",
-            "image": "https://charlesofalltrades.com/media/posts/2/waving-hello.png",
-            "author": {
-                "name": "Charles Palmer"
-            },
-            "tags": [
-                   "meta"
-            ],
-            "date_published": "2024-05-03T11:36:00-05:00",
-            "date_modified": "2024-05-23T15:00:10-05:00"
-        },
-        {
-            "id": "https://charlesofalltrades.com/hello-world.html",
-            "url": "https://charlesofalltrades.com/hello-world.html",
-            "title": "Hello world!",
-            "summary": "Gotta have a first post right? Well this is it! Don't get too excited, because it's coming to an end... now.",
-            "content_html": "<p>Gotta have a first post right?  Well this is it!  Don't get too excited, because it's coming to an end... now.</p>",
-            "author": {
-                "name": "Charles Palmer"
-            },
-            "tags": [
-            ],
-            "date_published": "2024-04-30T09:18:27-05:00",
-            "date_modified": "2024-04-30T09:18:27-05:00"
+            "date_published": "2024-06-06T10:39:27-05:00",
+            "date_modified": "2024-06-06T10:39:27-05:00"
         }
     ]
 }
