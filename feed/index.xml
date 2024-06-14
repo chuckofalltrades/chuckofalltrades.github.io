@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Charles Palmer</title>
+	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>I like learning, teaching, and playing with technology that does those things.</description>
+	<lastBuildDate>Fri, 14 Jun 2024 22:42:39 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+
+<image>
+	<url>/wp-content/uploads/2024/06/cropped-site-logo-icon-32x32.png</url>
+	<title>Charles Palmer</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Hello World!</title>
+		<link>/blog/hello-world/</link>
+		
+		<dc:creator><![CDATA[Charles Palmer]]></dc:creator>
+		<pubDate>Fri, 03 May 2024 16:36:00 +0000</pubDate>
+				<category><![CDATA[Miscellaneous]]></category>
+		<guid isPermaLink="false">/?p=218</guid>
+
+					<description><![CDATA[Hello there!&#160; I am up and running with my new site here for my personal/professional portfolio and associated blog. Now that I’ve got it up and running, I figure I should go back and add a few initial articles to explain how I got here! The starting place is that I have recently been “impacted” [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Hello there!&nbsp; I am up and running with my new site here for my personal/professional portfolio and associated blog. Now that I’ve got it up and running, I figure I should go back and add a few initial articles to explain how I got here!</p>
+
+
+
+<p>The starting place is that I have recently been “impacted” at my job, meaning that I no longer have that job. This has got me thinking about my future and the potential need to look for jobs outside of my current company. Since I have no real presence outside my current company today, it’s time to create one.</p>
+
+
+
+<p>This site will act as a place for me to store projects and serve as a portfolio should I seek jobs externally. Additionally, I want to start sharing my innovations and recording them in a more public format so that others in my industry can hopefully learn from me. I believe I have something valuable to share!&nbsp; So whether you&#8217;re here as a potential employer, or as a fellow L&amp;D professional, welcome!</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
