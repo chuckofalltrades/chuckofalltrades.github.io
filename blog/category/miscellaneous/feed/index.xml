@@ -12,7 +12,7 @@
 	<atom:link href="/blog/category/miscellaneous/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>I like learning, teaching, and playing with technology that does those things.</description>
-	<lastBuildDate>Fri, 14 Jun 2024 22:42:39 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 18 Jun 2024 14:57:40 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,25 +28,264 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Building This Site Part 1: Overview</title>
+		<link>/blog/building-this-site-part-1-overview/</link>
+		
+		<dc:creator><![CDATA[Charles Palmer]]></dc:creator>
+		<pubDate>Fri, 03 May 2024 18:54:00 +0000</pubDate>
+				<category><![CDATA[Miscellaneous]]></category>
+		<category><![CDATA[web design]]></category>
+		<guid isPermaLink="false">/?p=226</guid>
+
+					<description><![CDATA[Over the next few posts I&#8217;ll walk through the decisions to make when building your own site of this type (the blogfoliosume). Personally I lean towards the more technical and involved approach, but I will try and provide options along the way along with the pros and cons of each decision (i.e. the easy option [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Over the next few posts I&#8217;ll walk through the decisions to make when building your own site of this type (the blogfoliosume).  Personally I lean towards the more technical and involved approach, but I will try and provide options along the way along with the pros and cons of each decision (i.e. the easy option vs the cheap option vs the flexible option, rarely can you get all 3).  Let&#8217;s begin!</p>
+
+
+
+<h2 class="wp-block-heading">Purpose</h2>
+
+
+
+<p>This site needs to serve three purposes for me, you may not need or want all three.  I need:</p>
+
+
+
+<ul>
+<li>A place to store training content (primarily e-learning) I&#8217;ve created and collect it as a portfolio</li>
+
+
+
+<li>A resume that sells my skills and experience</li>
+
+
+
+<li>A blog to share my best practices and provide context for the other things.  </li>
+</ul>
+
+
+
+<p>Each has slightly different requirements and considerations, let&#8217;s break them down.</p>
+
+
+
+<h3 class="wp-block-heading">Portfolio</h3>
+
+
+
+<p>The need for a public portfolio is the highest priority and the original spark for this whole thing. I&#8217;ve created a lot of content over the years &#8211; e-learnings, videos, webapps, templates, etc &#8211; but they&#8217;re all stuck inside my employer. The first priority is a way to store projects of those types in a way that is easily accessible to anyone I wish to share them with.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img data-dominant-color="6d5a4f" data-has-transparency="false" fetchpriority="high" decoding="async" width="1024" height="686" src="/wp-content/uploads/2024/06/2482016-1024x686.jpg" alt="Scrabble tiles spelling &quot;SHARE&quot; on a wooden tile rack, with scattered tiles in the background." class="not-transparent wp-image-235" style="--dominant-color: #6d5a4f; width:645px;height:auto" srcset="/wp-content/uploads/2024/06/2482016-1024x686.jpg 1024w, /wp-content/uploads/2024/06/2482016-300x201.jpg 300w, /wp-content/uploads/2024/06/2482016-768x514.jpg 768w, /wp-content/uploads/2024/06/2482016.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Sharing is caring.</figcaption></figure>
+
+
+
+<p>On the surface this is simple, I just need a place to stick files. But what sort of files? Simple documents like PDFs or slide decks are easy thanks to services like Google Drive or Dropbox. Videos are also fairly straightforward using YouTube or Vimeo. But what about the complex e-learnings, the published content from Articulate Storyline or Adobe Captivate? At that point you need actual web hosting and that can get <em>very</em> complicated! Additional we have to consider storage space, how many projects do we want to share and how much space are they going to take up? Those files add up quick!</p>
+
+
+
+<p>The other critical piece of the portfolio puzzle is presentation. At its simplest a document full of links will do the job, but it doesn&#8217;t carry quite the same cachet as a well designed visual experience! For that we&#8217;ll need a good presentation layer, some sort of <abbr title="Content Management System">CMS</abbr> or site builder. This will also be a requirement for the Blog and Resume parts of this project. I&#8217;ll explore those options in Part 3.</p>
+
+
+
+<figure class="wp-block-gallery aligncenter has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-full"><img data-dominant-color="eeeff1" data-has-transparency="true" style="--dominant-color: #eeeff1;" decoding="async" width="975" height="990" data-id="237" src="/wp-content/uploads/2024/05/Screen-Shot-2024-06-17-at-11.33.09.png" alt="Document titled &quot;My Portfolio&quot; with listed contents: Compliance Conqueror, Leadership Lift, Safety First, CodeSmart, Diversity Dialogue, and Process Perfection." class="has-transparency wp-image-237" srcset="/wp-content/uploads/2024/05/Screen-Shot-2024-06-17-at-11.33.09.png 975w, /wp-content/uploads/2024/05/Screen-Shot-2024-06-17-at-11.33.09-295x300.png 295w, /wp-content/uploads/2024/05/Screen-Shot-2024-06-17-at-11.33.09-768x780.png 768w" sizes="(max-width: 975px) 100vw, 975px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img data-dominant-color="333d46" data-has-transparency="true" style="--dominant-color: #333d46;" decoding="async" width="975" height="990" data-id="236" src="/wp-content/uploads/2024/05/Screen-Shot-2024-06-17-at-11.35.57.png" alt="Example Portfolio webpage for featuring a welcoming message, a &quot;Hire Me&quot; button, and projects categorized into All, We App, Mobile App, Frontend, and Backend. The projects displayed include &quot;Compliance Conqueror: Navigating Workplace Regulations&quot; for Google, and &quot;Leadership Lift: Rising with Emotional Intelligence&quot; for Dropbox." class="has-transparency wp-image-236" srcset="/wp-content/uploads/2024/05/Screen-Shot-2024-06-17-at-11.35.57.png 975w, /wp-content/uploads/2024/05/Screen-Shot-2024-06-17-at-11.35.57-295x300.png 295w, /wp-content/uploads/2024/05/Screen-Shot-2024-06-17-at-11.35.57-768x780.png 768w" sizes="(max-width: 975px) 100vw, 975px" /></figure>
+<figcaption class="blocks-gallery-caption wp-element-caption">Both work, but which one would you hire?</figcaption></figure>
+
+
+
+<h3 class="wp-block-heading">Resume</h3>
+
+
+
+<p>At its simplest the resume (or <a aria-label="CV (opens in a new tab)" href="https://www.snhu.edu/about-us/newsroom/career/difference-between-curriculum-vitae-and-resume" target="_blank" rel="noreferrer noopener" class="ek-link">CV</a> if you prefer) is just another file, but I&#8217;ve got something bigger in mind. I want a dedicated page on the site that recreates my resume with more visual oomph than the &#8220;2 pages max&#8221; guidelines of the traditional resume file. I want a timeline and fancy bars to indicate skill levels, recommendations and references written like customer testimonials; this thing is like a product page for me!</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large"><img data-dominant-color="e3e6eb" data-has-transparency="false" loading="lazy" decoding="async" width="1024" height="657" src="/wp-content/uploads/2024/05/toha-hugo-theme-skills-example-screenshot-1024x657.png" alt="Example personal blog webpage featuring an &quot;About&quot; section detailing &quot;John Doe&quot; as a Software Engineer at &quot;Example Co.&quot; with skills in Kubernetes, Go Development, Cloud Computing, Docker, Prometheus, and Linux. Includes icons for leadership, teamwork, communication, hard work, fast learning, and problem-solving, as well as contact icons and a link to the resume." class="not-transparent wp-image-244" style="--dominant-color: #e3e6eb; object-fit:cover" srcset="/wp-content/uploads/2024/05/toha-hugo-theme-skills-example-screenshot-1024x657.png 1024w, /wp-content/uploads/2024/05/toha-hugo-theme-skills-example-screenshot-1536x985.png 1536w, /wp-content/uploads/2024/05/toha-hugo-theme-skills-example-screenshot-300x192.png 300w, /wp-content/uploads/2024/05/toha-hugo-theme-skills-example-screenshot-768x493.png 768w, /wp-content/uploads/2024/05/toha-hugo-theme-skills-example-screenshot.png 1578w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">I may have been heavily influenced by this Hugo theme.  <a href="https://themes.gohugo.io/themes/toha/" class="ek-link" target="_blank" rel="noopener noreferrer nofollow">Source</a></figcaption></figure>
+
+
+
+<p>So once again this will come back around to the need for a good web design approach.  Writing HTML from the ground up?  A good WYSIWYG design program?  Templates galore?  So many options to consider!</p>
+
+
+
+<h3 class="wp-block-heading">Blog</h3>
+
+
+
+<p>Throw a rock on the internet and you&#8217;ll hit a blogging platform, so this part is hypothetically easy. But ideally I want this whole thing seamless and integrated, I want the transition from a blog post into a portfolio example and over to the resume to all feel like it&#8217;s part of the same experience, which will be tough if they aren&#8217;t all built the same way. Luckily most good blogging platform also have tools for general page design.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img data-dominant-color="bcb092" data-has-transparency="false" loading="lazy" decoding="async" width="1024" height="585" src="/wp-content/uploads/2024/05/B4B42032-1E5B-4A44-81BC-E5D288A22301-1024x585.webp" alt="Cartoon illustration of a bearded man wearing a colorful, mismatched outfit with floral, striped, and polka dot patterns, and different colored shoes." class="not-transparent wp-image-239" style="--dominant-color: #bcb092; width:675px" srcset="/wp-content/uploads/2024/05/B4B42032-1E5B-4A44-81BC-E5D288A22301-1024x585.webp 1024w, /wp-content/uploads/2024/05/B4B42032-1E5B-4A44-81BC-E5D288A22301-1536x878.webp 1536w, /wp-content/uploads/2024/05/B4B42032-1E5B-4A44-81BC-E5D288A22301-300x171.webp 300w, /wp-content/uploads/2024/05/B4B42032-1E5B-4A44-81BC-E5D288A22301-768x439.webp 768w, /wp-content/uploads/2024/05/B4B42032-1E5B-4A44-81BC-E5D288A22301.webp 1792w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Not the consistent style I&#8217;m going for.</figcaption></figure>
+
+
+
+<p>On the flipside, a lot of blogging platforms come with limits or undesirable elements like ads.  I don&#8217;t want to suddenly hit a wall where I can&#8217;t embed an example from my portfolio in the blog article explaining it because the platform doesn&#8217;t allow iframes!  So this platform has to be flexible and open.</p>
+
+
+
+<h2 class="wp-block-heading">Other Considerations</h2>
+
+
+
+<p>In addition to meeting the needs of the three purposes of my site, I have a handful of general &#8220;rules&#8221; for myself for this project.</p>
+
+
+
+<h3 class="wp-block-heading">Cost: Low to Zero</h3>
+
+
+
+<p>I don&#8217;t want to spend any money on this thing, or at least the absolute least amount of money possible. This is partially just a challenge/choice thing, but it&#8217;s partially a necessity &#8211; I can&#8217;t be spending a large monthly amount in the hopes it&#8217;ll land me clients/a job that can justify the costs. Maybe someday, but not now.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img data-dominant-color="908a89" data-has-transparency="false" loading="lazy" decoding="async" width="1024" height="683" src="/wp-content/uploads/2024/06/3agz7a97qwa-1024x683.jpg" alt="person holding brown leather bifold wallet" class="not-transparent wp-image-240" style="--dominant-color: #908a89; width:675px" srcset="/wp-content/uploads/2024/06/3agz7a97qwa-1024x683.jpg 1024w, /wp-content/uploads/2024/06/3agz7a97qwa-1536x1024.jpg 1536w, /wp-content/uploads/2024/06/3agz7a97qwa-300x200.jpg 300w, /wp-content/uploads/2024/06/3agz7a97qwa-768x512.jpg 768w, /wp-content/uploads/2024/06/3agz7a97qwa.jpg 1600w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">I&#8217;ll gladly pay you Tuesday for a website today!</figcaption></figure>
+
+
+
+<p>It&#8217;s also just a personal philosophy you&#8217;ll see pop up a lot when I talk about technology: Why pay someone to do something you could do yourself?  It&#8217;s not a philosophy that extends everywhere in my life (i.e. mowing the lawn, I&#8217;ll happily pay someone else) but I&#8217;m very much a &#8220;build it don&#8217;t buy it&#8221; person when it comes to most learning technology solutions.</p>
+
+
+
+<h3 class="wp-block-heading">Custom Domain</h3>
+
+
+
+<p>This is the one cost I&#8217;m set on, ~$10 a year for your own domain name is a no-brainer as far as I&#8217;m concerned.  I&#8217;m not completely opposed to &#8220;charles.professionalsoundinghost.com&#8221; but &#8220;funfreeblogs4u.xyz/users/charles99523&#8221; isn&#8217;t going to cut it.  It&#8217;s like your email: Gmail is pretty acceptable these days, but doesn&#8217;t a custom address look even better?  And you have to admit to raising an eyebrow when someone gives you a Hotmail right?</p>
+
+
+
+<h3 class="wp-block-heading">Easy to Maintain</h3>
+
+
+
+<p>Obviously this one is relative. My idea of easy is probably very different than yours, but even I have my limits. I&#8217;ll cover this in more detail in the future articles in this series, but I started out this journey looking at various static site builders that gave an incredible amount of flexibility, but at too steep a learning curve for what I&#8217;m trying to accomplish. I had to reset myself a few times after wasting days going down bunny trails that just led to more questions than answers. In the end the solution has to balance all the stuff I want to do with the reality of how much time I have to actually do it.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img data-dominant-color="e2e1de" data-has-transparency="false" loading="lazy" decoding="async" width="1024" height="737" src="/wp-content/uploads/2024/05/rakhimdotorg-Blogs-Vs-Blogging-Comic-1024x737.jpg" alt="Graph depicting the relationship between the number of blog posts and the number of posts about elaborate blog setups, with various blogger archetypes labeled on a curve." class="not-transparent wp-image-241" style="--dominant-color: #e2e1de; width:1024px;height:auto" srcset="/wp-content/uploads/2024/05/rakhimdotorg-Blogs-Vs-Blogging-Comic-1024x737.jpg 1024w, /wp-content/uploads/2024/05/rakhimdotorg-Blogs-Vs-Blogging-Comic-1536x1105.jpg 1536w, /wp-content/uploads/2024/05/rakhimdotorg-Blogs-Vs-Blogging-Comic-300x216.jpg 300w, /wp-content/uploads/2024/05/rakhimdotorg-Blogs-Vs-Blogging-Comic-768x553.jpg 768w, /wp-content/uploads/2024/05/rakhimdotorg-Blogs-Vs-Blogging-Comic.jpg 1994w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Very true!  <a href="https://rakhim.org/honestly-undefined/19/" class="ek-link" target="_blank" rel="noopener noreferrer nofollow">Source</a></figcaption></figure>
+
+
+
+<p>I&#8217;ll outline the solution I ended up with (where I&#8217;m actually writing this postmortem so to speak) in a future article, but I&#8217;m happy with the balance I struck.</p>
+
+
+
+<h3 class="wp-block-heading">Accessible, Secure, and Findable</h3>
+
+
+
+<p>Early on in this process I hit a wall when I realized one of my tests was being blocked by my current employers firewall! This is obviously a big deal, if one company blocks it then others likely would too, which would really put a damper on that whole &#8220;getting hired&#8221; thing if they can&#8217;t even see what I&#8217;m selling (you know, me). After doing some digging, this can be caused by a lot of factors. The host, the age of the site, the <abbr title="Top Level Domain, the .com or .net etc at the end of a website's address.">TLD,</abbr> not having <abbr title="Secure Sockets Layer - Encryption that keeps you safe on any given website. The &quot;S&quot; in &quot;https&quot; that puts the little lock in your address bar.">SSL</abbr>, having too much placeholder content, and a lot more. As a result some of the decisions we&#8217;ll make along the way will be made for us to avoid these issues.</p>
+
+
+
+<div class="wp-block-group ticss-67839866 has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+<div class="tenor-gif-embed" data-postid="12289739" data-share-method="host" data-aspect-ratio="2.425" data-width="320px" width="320px" style="text-align: center;"><a href="https://tenor.com/view/highly-suspect-ratatouille-gif-12289739" target="_blank" rel="noopener noreferrer nofollow">Highly Suspect GIF</a>from <a href="https://tenor.com/search/highly-gifs" target="_blank" rel="noopener noreferrer nofollow">Highly GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+</div>
+
+
+
+<p>I also want people to find my site eventually.  In the beginning I imagine it&#8217;ll just be former coworkers that I&#8217;ve shared it with, but again the whole &#8220;get hired&#8221; thing kinda requires lots of other people to see it too!  I&#8217;m not interested in become some sort of influencer with a bunch of clickbait crap, but I do need to consider <em>some</em> <abbr title="Search Engine Optimization - Techniques to boost how much a site appear on Google etc.">SEO</abbr> as much as I hate it (maybe a future article, but personally I think SEO has ruined the internet).</p>
+
+
+
+<h2 class="wp-block-heading">The Requirements</h2>
+
+
+
+<p>I keep referring to this whole thing as &#8220;the site&#8221;, but it&#8217;s really about several components that get duct taped together to make the experience I&#8217;m after.  Let&#8217;s collect all the considerations above into a list of requirements.  I require:</p>
+
+
+
+<ul>
+<li>A hosting location for a variety of content formats including:
+<ul>
+<li>Documents &amp; images</li>
+
+
+
+<li>Videos</li>
+
+
+
+<li>Interactive web &#8220;packages&#8221; including HTML/CSS/Javascript</li>
+</ul>
+</li>
+
+
+
+<li>A flexible site authoring platform that can generate both blog-style content and other pages in a visually pleasing way
+<ul>
+<li>It must be easy to maintain</li>
+
+
+
+<li>It must be flexible to support experimentation and demonstration of things I haven&#8217;t thought of yet</li>
+</ul>
+</li>
+
+
+
+<li>A custom domain that is professional and not likely to be flagged by firewalls</li>
+
+
+
+<li>Relatively easy setup and maintenance on all of the above</li>
+
+
+
+<li>Security and SEO on all the above</li>
+
+
+
+<li>Low to no cost on any of the above</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">Closing</h2>
+
+
+
+<p>Am I overthinking all this?  Probably.  But hey, I like thinking!  This whole project is actually a lot of fun for me, and I hope you enjoy the journey!  Next up I&#8217;ll dig into each of the big choices to make on hosting providers and content management, then bring it all together into the solution I chose as well as some alternatives to consider.  See you then!</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Hello World!</title>
 		<link>/blog/hello-world/</link>
 		
 		<dc:creator><![CDATA[Charles Palmer]]></dc:creator>
 		<pubDate>Fri, 03 May 2024 16:36:00 +0000</pubDate>
 				<category><![CDATA[Miscellaneous]]></category>
+		<category><![CDATA[general]]></category>
 		<guid isPermaLink="false">/?p=218</guid>
 
-					<description><![CDATA[Hello there!&#160; I am up and running with my new site here for my personal/professional portfolio and associated blog. Now that I’ve got it up and running, I figure I should go back and add a few initial articles to explain how I got here! The starting place is that I have recently been “impacted” [&#8230;]]]></description>
+					<description><![CDATA[Hello and welcome! I&#8217;m Charles Palmer and this is my blog/portfolio/resume, or &#8220;blogfoliosume&#8221;. I am an adult education (andragogy) professional with over 15 years experience in Learning and Development. My specialty is learning technology, specifically finding new ways to integrate emerging technologies into learning experiences. Over the past 15 years I have established myself as [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<p>Hello there!&nbsp; I am up and running with my new site here for my personal/professional portfolio and associated blog. Now that I’ve got it up and running, I figure I should go back and add a few initial articles to explain how I got here!</p>
+<p>Hello and welcome!  I&#8217;m Charles Palmer and this is my blog/portfolio/resume, or &#8220;blogfoliosume&#8221;.  I am an adult education (<abbr title="the art or science of teaching adults - Merriam Webster"><a aria-label="andragogy (opens in a new tab)" href="https://elearningindustry.com/the-adult-learning-theory-andragogy-of-malcolm-knowles" target="_blank" rel="noreferrer noopener" class="ek-link">andragogy</a></abbr>) professional with over 15 years experience in Learning and Development.  My specialty is learning technology, specifically finding new ways to integrate emerging technologies into learning experiences.  Over the past 15 years I have established myself as an expert and thought leader, but only inside the company I work for; this site seeks to change that.  Here I will share my experiences, ideas, tips, and more with the hope that the larger <abbr title="The afformentioned Learning and Development">L&amp;D</abbr> community can benefit.  I have benefited from many other experts, so it&#8217;s time to reciprocate!</p>
 
 
 
-<p>The starting place is that I have recently been “impacted” at my job, meaning that I no longer have that job. This has got me thinking about my future and the potential need to look for jobs outside of my current company. Since I have no real presence outside my current company today, it’s time to create one.</p>
+<p>This site also acts as my portfolio and resume.  I have neglected the world outside my current employer for too long, and that has come back to bite me.  Out here in the big world I don&#8217;t have the advantage of just saying &#8220;remember that project we worked on?&#8221;.  I don&#8217;t have name recognition or an existing catalog of work to point at when seeking jobs.  It&#8217;s going to take some time to scrub all my existing internal work of confidential info, but in the end I intend to rectify the above and establish solid proof of that expertise I claim.  Until that is done I invite you to <a aria-label="check out my LinkedIn profile (opens in a new tab)" href="https://www.linkedin.com/in/charles-l-palmer/" target="_blank" rel="noreferrer noopener" class="ek-link">check out my LinkedIn profile</a> where my work history and skills are documented.</p>
 
 
 
-<p>This site will act as a place for me to store projects and serve as a portfolio should I seek jobs externally. Additionally, I want to start sharing my innovations and recording them in a more public format so that others in my industry can hopefully learn from me. I believe I have something valuable to share!&nbsp; So whether you&#8217;re here as a potential employer, or as a fellow L&amp;D professional, welcome!</p>
+<p>I&#8217;ve got a long list of articles already started on topics like using generative AI tools, accessibility for neurodivergent audiences, using animation in e-learning, and much more. To start I&#8217;ll be writing some posts about the process of creating this site; I know many in the industry are in need of similar portfolio sites and I hope to help. Stay tuned!</p>
+
+
+
+<p>I truly believe I have something valuable to share; so whether you&#8217;re here as a potential employer, or as a fellow L&amp;D professional, thanks for reading and I hope you&#8217;ll check back often!</p>
 ]]></content:encoded>
 					
 		

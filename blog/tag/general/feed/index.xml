@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>general &#8211; Charles Palmer</title>
+	<atom:link href="/blog/tag/general/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>I like learning, teaching, and playing with technology that does those things.</description>
+	<lastBuildDate>Tue, 18 Jun 2024 14:57:02 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+
+<image>
+	<url>/wp-content/uploads/2024/06/cropped-site-logo-icon-32x32.png</url>
+	<title>general &#8211; Charles Palmer</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Hello World!</title>
+		<link>/blog/hello-world/</link>
+		
+		<dc:creator><![CDATA[Charles Palmer]]></dc:creator>
+		<pubDate>Fri, 03 May 2024 16:36:00 +0000</pubDate>
+				<category><![CDATA[Miscellaneous]]></category>
+		<category><![CDATA[general]]></category>
+		<guid isPermaLink="false">/?p=218</guid>
+
+					<description><![CDATA[Hello and welcome! I&#8217;m Charles Palmer and this is my blog/portfolio/resume, or &#8220;blogfoliosume&#8221;. I am an adult education (andragogy) professional with over 15 years experience in Learning and Development. My specialty is learning technology, specifically finding new ways to integrate emerging technologies into learning experiences. Over the past 15 years I have established myself as [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Hello and welcome!  I&#8217;m Charles Palmer and this is my blog/portfolio/resume, or &#8220;blogfoliosume&#8221;.  I am an adult education (<abbr title="the art or science of teaching adults - Merriam Webster"><a aria-label="andragogy (opens in a new tab)" href="https://elearningindustry.com/the-adult-learning-theory-andragogy-of-malcolm-knowles" target="_blank" rel="noreferrer noopener" class="ek-link">andragogy</a></abbr>) professional with over 15 years experience in Learning and Development.  My specialty is learning technology, specifically finding new ways to integrate emerging technologies into learning experiences.  Over the past 15 years I have established myself as an expert and thought leader, but only inside the company I work for; this site seeks to change that.  Here I will share my experiences, ideas, tips, and more with the hope that the larger <abbr title="The afformentioned Learning and Development">L&amp;D</abbr> community can benefit.  I have benefited from many other experts, so it&#8217;s time to reciprocate!</p>
+
+
+
+<p>This site also acts as my portfolio and resume.  I have neglected the world outside my current employer for too long, and that has come back to bite me.  Out here in the big world I don&#8217;t have the advantage of just saying &#8220;remember that project we worked on?&#8221;.  I don&#8217;t have name recognition or an existing catalog of work to point at when seeking jobs.  It&#8217;s going to take some time to scrub all my existing internal work of confidential info, but in the end I intend to rectify the above and establish solid proof of that expertise I claim.  Until that is done I invite you to <a aria-label="check out my LinkedIn profile (opens in a new tab)" href="https://www.linkedin.com/in/charles-l-palmer/" target="_blank" rel="noreferrer noopener" class="ek-link">check out my LinkedIn profile</a> where my work history and skills are documented.</p>
+
+
+
+<p>I&#8217;ve got a long list of articles already started on topics like using generative AI tools, accessibility for neurodivergent audiences, using animation in e-learning, and much more. To start I&#8217;ll be writing some posts about the process of creating this site; I know many in the industry are in need of similar portfolio sites and I hope to help. Stay tuned!</p>
+
+
+
+<p>I truly believe I have something valuable to share; so whether you&#8217;re here as a potential employer, or as a fellow L&amp;D professional, thanks for reading and I hope you&#8217;ll check back often!</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

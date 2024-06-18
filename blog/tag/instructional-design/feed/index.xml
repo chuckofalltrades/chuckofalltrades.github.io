@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>instructional design &#8211; Charles Palmer</title>
+	<atom:link href="/blog/tag/instructional-design/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>I like learning, teaching, and playing with technology that does those things.</description>
+	<lastBuildDate>Tue, 18 Jun 2024 16:25:50 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+
+<image>
+	<url>/wp-content/uploads/2024/06/cropped-site-logo-icon-32x32.png</url>
+	<title>instructional design &#8211; Charles Palmer</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Building This Site Part 1.5: You ARE a Web Designer!</title>
+		<link>/blog/building-this-site-part-1-5-you-are-a-web-designer/</link>
+		
+		<dc:creator><![CDATA[Charles Palmer]]></dc:creator>
+		<pubDate>Tue, 18 Jun 2024 14:53:33 +0000</pubDate>
+				<category><![CDATA[E-Learning]]></category>
+		<category><![CDATA[css]]></category>
+		<category><![CDATA[elearning]]></category>
+		<category><![CDATA[html]]></category>
+		<category><![CDATA[instructional design]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[web design]]></category>
+		<guid isPermaLink="false">/?p=247</guid>
+
+					<description><![CDATA[In the last post I established a handful of things to consider in setting up a &#8220;blogfoliosume&#8221; (I should copyright that&#8230;) and promised a few more articles digging into the details. But before we go there it occurs to me that I should outline a few key parts of web design first, and hopefully dispel [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>In the <a href="/blog/building-this-site-part-1-overview/" class="ek-link">last post</a> I established a handful of things to consider in setting up a &#8220;blogfoliosume&#8221; (I should copyright that&#8230;) and promised a few more articles digging into the details. But before we go there it occurs to me that I should outline a few key parts of web design first, and hopefully dispel any trepidation you might feel on the more complex paths I&#8217;ll explore.</p>
+
+
+
+<p>My primary audience here are my peers out there in the Learning &amp; Development field, especially Instructional Designers creating e-learnings. And in my experience many instructional designers don&#8217;t realize this very important fact: You are a web designer! When you’re authoring e-learning content, you are doing web design. Whether you use Storyline, Rise, Captivate, Lectora, et al, you are creating HTML, CSS, and JavaScript files &#8211; a website! You&#8217;re just using a visual editing tool (or <abbr title="What You See Is What You Get - Tools for creating content where the creation looks the same as the output.">WYSIWYG</abbr>) designed for a specific purpose.</p>
+
+
+
+<figure class="wp-block-pullquote"><blockquote><p>E-learning design is web design!</p></blockquote></figure>
+
+
+
+<p>I hear you saying <em>&#8220;But Charles, I don&#8217;t write code!&#8221;</em> Maybe not directly, but neither do many web designers! In web design and development there are various roles: Some people consider themselves &#8220;<abbr title="The part your see, also called &quot;client side&quot; because your browser is the client.">front end</abbr>&#8221; or &#8220;<abbr title="The part you don't see, also called &quot;server side&quot; because it all happens on the remote server.">back end</abbr>&#8221; developers, creating the user interfaces on websites or programming the servers and databases that power them. There&#8217;s a whole class of &#8220;full stack&#8221; developers who do both. And there are those focused purely on visual design using tools like Figma, Adobe Creative Cloud, et al. In most cases those designers than hand off their designs to the front end developers to implement &#8211; But in our case the tools do that for us!</p>
+
+
+
+<p>Want more proof?</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img data-dominant-color="c2c4c6" data-has-transparency="true" style="--dominant-color: #c2c4c6;" fetchpriority="high" decoding="async" width="1015" height="680" src="/wp-content/uploads/2024/06/2024-06-17_14-55-36-1.png" alt="Publishing window showing options for Title, Description, Folder location, Player type, Quality, and Publish. On the right side, there is a file directory with an arrow pointing to &quot;frame.desktop.min.js&quot; in the scripts folder." class="has-transparency wp-image-255" srcset="/wp-content/uploads/2024/06/2024-06-17_14-55-36-1.png 1015w, /wp-content/uploads/2024/06/2024-06-17_14-55-36-1-300x201.png 300w, /wp-content/uploads/2024/06/2024-06-17_14-55-36-1-768x515.png 768w" sizes="(max-width: 1015px) 100vw, 1015px" /><figcaption class="wp-element-caption">Example: Storyline publish to web produces HTML, CSS, and JavaScript files.</figcaption></figure>
+
+
+
+<p>See these files output by Storyline? It&#8217;s HTML, CSS, and JavaScript (.js); this trio makes up the front end of all modern websites regardless of how they are built. The structure of the files is a bit atypical and the code is not super user friendly to read through, but that&#8217;s typical of most WYSIWYG tools. <em>Hypothetically</em> you could write all the code by hand and produce the exact same thing without even needing a design tool, goodbye Articulate 360 subscription! (Not that I&#8217;m actually suggesting that.)</p>
+
+
+
+<p>I hear you asking questions again, <em>&#8220;But what about SCORM?  What about the LMS??  Won&#8217;t somebody please think of the LMS?!?&#8221;</em>.  Chill out, it&#8217;s all good!  Also you forgot to worry about xAPI.  Poor xAPI, always the afterthought.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img data-dominant-color="957443" data-has-transparency="false" style="--dominant-color: #957443;" decoding="async" width="480" height="360" src="/wp-content/uploads/2024/06/pleasethinkofthelms.gif" alt="Simpsons character Helen Lovejoy with a worried expression and hands clasped together, saying &quot;WON'T SOMEBODY PLEASE THINK OF THE LMS?!?&quot; while others look on in the background.  A parody of the classic scene in which she overreacts that someone should &quot;think of the children&quot;" class="not-transparent wp-image-256" srcset="/wp-content/uploads/2024/06/pleasethinkofthelms.gif 480w, /wp-content/uploads/2024/06/pleasethinkofthelms-300x225.gif 300w" sizes="(max-width: 480px) 100vw, 480px" /></figure>
+
+
+
+<p>For our purposes those things don&#8217;t matter. An LMS is just a specialized web server in the first place, with tools in place to handle things like learner registrations, enrollments, and reporting. SCORM is a standard, a common shared set of rules, for communication between an e-learning course and an LMS. Again, you could manually write the HTML/CSS/Javascript for a course and manually incorporate the SCORM standard (seriously, have a go at the <em>102 page</em> <a aria-label="documentation (opens in a new tab)" href="https://adlnet.gov/assets/uploads/SCORM_Users_Guide_for_Programmers.pdf" target="_blank" rel="noreferrer noopener" class="ek-link">documentation</a> next time you&#8217;re bored) and it would work fine on any standards-complaint LMS. But let&#8217;s not do that.</p>
+
+
+
+<p>Since we just want to let potential clients and employers check out how awesome our work is, we don&#8217;t need all those special tools on an LMS, and therefore SCORM is irrelevant as well. And since we&#8217;ve established that all an e-learning design tool is creating is the same code files as any normal website, all we need is a normal website host and we can approach this whole thing as a web design project! See? We&#8217;ve come full circle!</p>
+
+
+
+<h2 class="wp-block-heading">Fine. So, what is a website anyway?</h2>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img data-dominant-color="9e9aa1" data-has-transparency="false" style="--dominant-color: #9e9aa1;" decoding="async" width="406" height="450" src="/wp-content/uploads/2024/06/classic_90s_internet_book.jpg" alt="Cover of the book &quot;Internet: A First Discovery Book&quot; by Scholastic featuring a child on a keyboard, appearing to surf on it over a globe, surrounded by other children and computer-related images." class="not-transparent wp-image-259" srcset="/wp-content/uploads/2024/06/classic_90s_internet_book.jpg 406w, /wp-content/uploads/2024/06/classic_90s_internet_book-271x300.jpg 271w" sizes="(max-width: 406px) 100vw, 406px" /><figcaption class="wp-element-caption">The web used to be so cool.  Now it&#8217;s just memes and bad news and&#8230; other things.</figcaption></figure>
+
+
+
+<p>The internet, or &#8220;Information Super Highway&#8221; for those of us who survived the 90s, is complicated. But at the same time, it&#8217;s actually not. The huge, powerful, interactive web apps we all use each day aside, a website is actually a pretty simple thing if you break it down. A basic website is a set of text files written in a standardized format (AKA code), literally each page of a site is a file. Those files live on a special computer that serves them to you (AKA the server) when you ask for them (by visiting the URL). Your browser knows how to read the code and show you the content (AKA render the page).  That&#8217;s it.  Seriously, try this:</p>
+
+
+
+<ol>
+<li>Open you most basic text editor (Notepad on Windows, TextEdit on a Mac. Make sure it&#8217;s set to plain text.).</li>
+
+
+
+<li>Just type some text. &#8220;Hello world!&#8221; is the classic.</li>
+
+
+
+<li>Save it as <code>index.html</code> (doesn&#8217;t matter where so long as you can find it).</li>
+
+
+
+<li>Double click the file.</li>
+</ol>
+
+
+
+<p>What happened?  Your browser opened and showed you what you wrote.  Congrats, you made a webpage!  And we didn&#8217;t even write any code (yet&#8230;).</p>
+
+
+
+<h3 class="wp-block-heading">About that code</h3>
+
+
+
+<p>Despite that ominous &#8220;yet&#8230;&#8221;, I&#8217;m not trying to trick you into a code tutorial, there are far better resources out there for that already (I&#8217;ll share some at the end of the article). But I do want to define some things here to help with the context of our blogfoliosume (I&#8217;m dropping the quotes, it&#8217;s a real word now) project. I&#8217;ve mentioned them a few times already: HTML, CSS, and JavaScript. Let&#8217;s break them down in a way that&#8217;s useful to us in our e-learning context.</p>
+
+
+
+<h4 class="wp-block-heading">HTML</h4>
+
+
+
+<p>HTML defines the structure of a page, it&#8217;s the &#8220;bones&#8221; if you will.  It&#8217;s also where the actual content is, your words and pictures are in the HTML. You can think of HTML as code that defines the structure you expect in any word processor, saying things like &#8220;this is a paragraph&#8221;, &#8220;this is an image&#8221;, &#8220;this is a table&#8221;, etc. It says that using tags using angle brackets that look like this: <code>&lt;p>This is a paragraph.&lt;/p></code>. Here&#8217;s a simple example of some HTML and the page it creates:</p>
+
+
+
+<div class="wp-block-columns are-vertically-aligned-top is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-vertically-aligned-top is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
+<div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;showPanel&quot;:true,&quot;languageLabel&quot;:&quot;language&quot;,&quot;fullScreenButton&quot;:true,&quot;copyButton&quot;:true,&quot;mode&quot;:&quot;htmlmixed&quot;,&quot;mime&quot;:&quot;text/html&quot;,&quot;theme&quot;:&quot;material&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:true,&quot;readOnly&quot;:true,&quot;fileName&quot;:&quot;HTML&quot;,&quot;disableCopy&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;HTML&quot;,&quot;maxHeight&quot;:&quot;400px&quot;,&quot;modeName&quot;:&quot;html&quot;}">&lt;html&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hi there, I'm a heading!&lt;/h1&gt;
+    &lt;p&gt;And I'm a paragraph full of useful information!  But some information might be better in a list!&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Lists are great!&lt;/li&gt;
+      &lt;li&gt;Each thing on the list is a &quot;list item&quot;, hence the li tags!&lt;/li&gt;
+      &lt;li&gt;This list is unordered (ul) with bullets. It could also be ordered (ol) with numbers!&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;a href=&quot;https://charlesofalltrades.com&quot;&gt;And/ don't forget hyperlinks, the real superheroes of the internet!&lt;/a&gt;
+    &lt;p&gt;One more paragraph for fun and then we'll close the body and page tags.  Bye!&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre></div>
+</div>
+</div>
+
+
+
+<div class="wp-block-column is-vertically-aligned-top is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
+<figure class="wp-block-image size-full"><img data-dominant-color="eeedee" data-has-transparency="true" style="--dominant-color: #eeedee;" loading="lazy" decoding="async" width="687" height="412" src="/wp-content/uploads/2024/06/2024-06-17_16-33-04.png" alt="Screenshot of a webpage showing a heading, a paragraph, a bulleted list, a hyperlink, and another paragraph." class="has-transparency wp-image-262" srcset="/wp-content/uploads/2024/06/2024-06-17_16-33-04.png 687w, /wp-content/uploads/2024/06/2024-06-17_16-33-04-300x180.png 300w" sizes="(max-width: 687px) 100vw, 687px" /></figure>
+</div>
+</div>
+
+
+
+<p>As I said, not attempting to teach HTML here, but I hope that illustrates the idea that the HTML is just structure and content. You&#8217;ll also notice it&#8217;s pretty easy to read, but lacks any real design elements. Modern HTML practices try and avoid things like visual style, that&#8217;s the job of our next stop, CSS!</p>
+
+
+
+<h4 class="wp-block-heading">CSS</h4>
+
+
+
+<p>CSS stands for &#8220;Cascading Style Sheets&#8221; and can get pretty complicated, but it&#8217;s the language where a lot of that visual design we love comes from!  CSS defines the styles and formatting of the webpage content.  Fonts, colors, backgrounds, all defined in the page&#8217;s CSS.  Also layout things like how much space there is between elements or whether things should go on the right or the left are defined by CSS.</p>
+
+
+
+<p>So when you selected your slide heading in Captivate and set it to be 36pt Helvetica in a nice dark blue, set your paragraphs to be 16pt not-quite-black, and decided the whole slide should have a nice cream background; Captivate wrote this for you:</p>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-2 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;showPanel&quot;:true,&quot;languageLabel&quot;:&quot;language&quot;,&quot;fullScreenButton&quot;:true,&quot;copyButton&quot;:true,&quot;mode&quot;:&quot;css&quot;,&quot;mime&quot;:&quot;text/css&quot;,&quot;theme&quot;:&quot;material&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:true,&quot;readOnly&quot;:true,&quot;fileName&quot;:&quot;CSS&quot;,&quot;disableCopy&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;CSS&quot;,&quot;maxHeight&quot;:&quot;400px&quot;,&quot;modeName&quot;:&quot;css&quot;}">h1 {
+  font-size: 36pt;
+    font-family: 'Helvetica';
+    color: #003366;
+}
+
+p {
+  font-size: 16pt;
+    font-family: 'Helvetica';
+    color: #333333;
+}
+
+body {
+    background-color: #f5f5dc;
+}</pre></div>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure class="wp-block-image size-full"><img data-dominant-color="e0e2ce" data-has-transparency="true" style="--dominant-color: #e0e2ce;" loading="lazy" decoding="async" width="687" height="588" src="/wp-content/uploads/2024/06/2024-06-17_16-49-13.png" alt="Hi there, I'm a heading! And I'm a paragraph full of useful information! But some information might be better in a list! - Lists are great! - Each thing on the list is a &quot;list item&quot;, hence the li tags! - This list is unordered (ul) with bullets. It could also be ordered (ol) with numbers! And don't forget hyperlinks, the real superheroes of the internet! One more paragraph for fun and then we'll close the body and page tags. Bye!" class="has-transparency wp-image-263" srcset="/wp-content/uploads/2024/06/2024-06-17_16-49-13.png 687w, /wp-content/uploads/2024/06/2024-06-17_16-49-13-300x257.png 300w" sizes="(max-width: 687px) 100vw, 687px" /></figure>
+</div>
+</div>
+
+
+
+<p>You&#8217;ll notice the list and link were not affected because my example didn&#8217;t &#8220;target&#8221; them.  That&#8217;s where CSS can get complicated; there are considerations about specificity, parent/child hierarchies, IDs and classes, and much more that goes into styling an entire site.  But again, just want the concepts to stick here: CSS is for style and formatting.  </p>
+
+
+
+<h4 class="wp-block-heading">JavaScript</h4>
+
+
+
+<p>Now the big boy. JavaScript (it actually has no relation to Java, don&#8217;t get them confused!) is what powers dynamic interactivity on the modern web. Whenever a website does something other than just show you something, Javascript was involved. If you click and something changes without reloading the page? JavaScript. Something pops up? JavaScript. </p>
+
+
+
+<p>JavaScript is its own profession, but it&#8217;s also really critical to us because all that interactivity we count on in e-learning is powered by it!  In fact I would argue that the difference between a beginner in e-learning design and an expert is awareness of how Javascript can be used in our tools! Both Storyline and Captivate have powerful Javascript tools under the hood, and opening them up is the key to taking your content to the next level!  Many future articles will be around doing just that.  But for now, the simple demonstration:</p>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-3 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;showPanel&quot;:true,&quot;languageLabel&quot;:&quot;language&quot;,&quot;fullScreenButton&quot;:true,&quot;copyButton&quot;:true,&quot;mode&quot;:&quot;htmlmixed&quot;,&quot;mime&quot;:&quot;text/html&quot;,&quot;theme&quot;:&quot;material&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;fileName&quot;:&quot;HTML&quot;,&quot;disableCopy&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;HTML&quot;,&quot;maxHeight&quot;:&quot;400px&quot;,&quot;modeName&quot;:&quot;html&quot;}">&lt;button onclick=&quot;toggleList()&quot;&gt;Toggle List&lt;/button&gt;
+...
+&lt;ul id=&quot;example&quot;&gt;</pre></div>
+
+
+
+<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;showPanel&quot;:true,&quot;languageLabel&quot;:&quot;language&quot;,&quot;fullScreenButton&quot;:true,&quot;copyButton&quot;:true,&quot;mode&quot;:&quot;javascript&quot;,&quot;mime&quot;:&quot;text/javascript&quot;,&quot;theme&quot;:&quot;material&quot;,&quot;lineNumbers&quot;:true,&quot;styleActiveLine&quot;:true,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:true,&quot;fileName&quot;:&quot;JavaScript&quot;,&quot;disableCopy&quot;:true,&quot;hasCustomCSS&quot;:false,&quot;customCSS&quot;:&quot;&quot;,&quot;otterConditions&quot;:[],&quot;language&quot;:&quot;JavaScript&quot;,&quot;maxHeight&quot;:&quot;400px&quot;,&quot;modeName&quot;:&quot;js&quot;}">function toggleList() {
+        var list = document.getElementById(&quot;example&quot;);
+        if (list.style.display === &quot;none&quot;) {
+          list.style.display = &quot;block&quot;;
+        } else {
+          list.style.display = &quot;none&quot;;
+        }
+      }</pre></div>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure class="wp-block-image size-full"><img data-dominant-color="e1e4cc" data-has-transparency="true" style="--dominant-color: #e1e4cc;" loading="lazy" decoding="async" width="650" height="438" src="/wp-content/uploads/2024/06/2024-06-18_10-39-26-1.gif" alt="Animated gif showing the a small piece of content being toggled between visible and hidden using simple javascript." class="has-transparency wp-image-278" srcset="/wp-content/uploads/2024/06/2024-06-18_10-39-26-1.gif 650w, /wp-content/uploads/2024/06/2024-06-18_10-39-26-1-300x202.gif 300w" sizes="(max-width: 650px) 100vw, 650px" /></figure>
+</div>
+</div>
+
+
+
+<p>Here I&#8217;ve added a button to our original HTML and given our list an ID to make it easier to target with the JavaScript.  When the user clicks that button it runs a function that basically just changes the other code, adding CSS styles that either hide or show that particular element.  It uses if/then type logic to decide what to change.  Again, that&#8217;s literally what your design tool is doing too!</p>
+
+
+
+<div class="wp-block-group has-tertiary-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="border-width:5px;padding-right:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">
+<p><i class="icon fas fa-circle-exclamation" aria-hidden="true"> </i> One last really important thing about all this code: Everything we&#8217;re talking about here is &#8220;front end&#8221; (AKA &#8220;client side&#8221; AKA &#8220;it&#8217;s all downloaded to your computer when you visit the page and doesn&#8217;t require the server to do anything special&#8221;).  This is critical as we start talking about solutions in the next articles.  If we needed &#8220;back end&#8221; functionality (AKA &#8220;server side&#8221; AKA &#8220;stuff that happens on the server before the page is even sent to you or after some trigger&#8221;) then we&#8217;d need different solutions than we&#8217;ll be talking about.</p>
+</div>
+
+
+
+<h2 class="wp-block-heading">Final thoughts</h2>
+
+
+
+<p>This article went a bit different than I initially intended, but I hope it still had value.  If nothing else I hope it encourages you to start thinking like a web designer, because after all, you are!</p>
+
+
+
+<h3 class="wp-block-heading">Key points:</h3>
+
+
+
+<ul>
+<li>E-learning design IS web design!</li>
+
+
+
+<li>Your e-learning design tool is creating a web site, creating the same code you could write manually.</li>
+
+
+
+<li>HTML provides the structure of a web page and is where the content lives.</li>
+
+
+
+<li>CSS provides the styling, formatting, and layout of a web page.</li>
+
+
+
+<li>JavaScript adds interactivity and is a powerful e-learning tool.</li>
+
+
+
+<li>And because of all that, we can approach our portfolio project as a website building project!</li>
+</ul>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
