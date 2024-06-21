@@ -11,8 +11,8 @@
 	<title>E-Learning &#8211; Charles Palmer</title>
 	<atom:link href="/blog/category/instructional-design/e-learning/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>I like learning, teaching, and playing with technology that does those things.</description>
-	<lastBuildDate>Tue, 18 Jun 2024 16:25:50 +0000</lastBuildDate>
+	<description>I like learning, teaching, and exploring technology that enables those things.</description>
+	<lastBuildDate>Fri, 21 Jun 2024 13:59:26 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=6.5.4</generator>
 
 <image>
-	<url>/wp-content/uploads/2024/06/cropped-site-logo-icon-32x32.png</url>
+	<url>/wp-content/uploads/2024/06/cropped-Charles-Headshot-2-Circle-32x32.png</url>
 	<title>E-Learning &#8211; Charles Palmer</title>
 	<link>/</link>
 	<width>32</width>
@@ -32,7 +32,7 @@
 		<link>/blog/building-this-site-part-1-5-you-are-a-web-designer/</link>
 		
 		<dc:creator><![CDATA[Charles Palmer]]></dc:creator>
-		<pubDate>Tue, 18 Jun 2024 14:53:33 +0000</pubDate>
+		<pubDate>Tue, 07 May 2024 14:53:00 +0000</pubDate>
 				<category><![CDATA[E-Learning]]></category>
 		<category><![CDATA[css]]></category>
 		<category><![CDATA[elearning]]></category>
@@ -56,7 +56,7 @@
 
 
 
-<p>I hear you saying <em>&#8220;But Charles, I don&#8217;t write code!&#8221;</em> Maybe not directly, but neither do many web designers! In web design and development there are various roles: Some people consider themselves &#8220;<abbr title="The part your see, also called &quot;client side&quot; because your browser is the client.">front end</abbr>&#8221; or &#8220;<abbr title="The part you don't see, also called &quot;server side&quot; because it all happens on the remote server.">back end</abbr>&#8221; developers, creating the user interfaces on websites or programming the servers and databases that power them. There&#8217;s a whole class of &#8220;full stack&#8221; developers who do both. And there are those focused purely on visual design using tools like Figma, Adobe Creative Cloud, et al. In most cases those designers than hand off their designs to the front end developers to implement &#8211; But in our case the tools do that for us!</p>
+<p>I hear you saying <em>&#8220;But Charles, I don&#8217;t write code!&#8221;</em> Maybe not directly, but neither do many web designers! In web design and development there are various roles: Some people consider themselves &#8220;<abbr title="The part your see, also called &quot;client side&quot; because your browser is the client.">front end</abbr>&#8221; or &#8220;<abbr title="The part you don't see, also called &quot;server side&quot; because it all happens on the remote server.">back end</abbr>&#8221; developers, creating the user interfaces on websites vs programming the servers and databases that power them. There&#8217;s a whole class of &#8220;full stack&#8221; developers who do both. And there are those focused purely on visual design using tools like Figma, Adobe Creative Cloud, et al. In most cases those designers than hand off their designs to the front end developers to implement &#8211; But in our case the tools do that for us!</p>
 
 
 
@@ -80,7 +80,7 @@
 
 
 
-<p>For our purposes those things don&#8217;t matter. An LMS is just a specialized web server in the first place, with tools in place to handle things like learner registrations, enrollments, and reporting. SCORM is a standard, a common shared set of rules, for communication between an e-learning course and an LMS. Again, you could manually write the HTML/CSS/Javascript for a course and manually incorporate the SCORM standard (seriously, have a go at the <em>102 page</em> <a aria-label="documentation (opens in a new tab)" href="https://adlnet.gov/assets/uploads/SCORM_Users_Guide_for_Programmers.pdf" target="_blank" rel="noreferrer noopener" class="ek-link">documentation</a> next time you&#8217;re bored) and it would work fine on any standards-complaint LMS. But let&#8217;s not do that.</p>
+<p>For our purposes those things don&#8217;t matter. An LMS is just a specialized web server in the first place, with tools in place to handle things like learner registrations, enrollments, and reporting. SCORM is a standard, a common shared set of rules, for communication between an e-learning course and an LMS. Again, you could manually write the HTML/CSS/JavaScript for a course and manually incorporate the SCORM standard (seriously, have a go at the <em>102 page</em> <a aria-label="documentation (opens in a new tab)" href="https://adlnet.gov/assets/uploads/SCORM_Users_Guide_for_Programmers.pdf" target="_blank" rel="noreferrer noopener" class="ek-link">documentation</a> next time you&#8217;re bored) and it would work fine on any standards-complaint LMS. But let&#8217;s not do that.</p>
 
 
 
@@ -101,7 +101,7 @@
 
 
 <ol>
-<li>Open you most basic text editor (Notepad on Windows, TextEdit on a Mac. Make sure it&#8217;s set to plain text.).</li>
+<li>Open your most basic text editor (Notepad on Windows, TextEdit on a Mac. Make sure it&#8217;s set to plain text.).</li>
 
 
 
@@ -134,7 +134,7 @@
 
 
 
-<p>HTML defines the structure of a page, it&#8217;s the &#8220;bones&#8221; if you will.  It&#8217;s also where the actual content is, your words and pictures are in the HTML. You can think of HTML as code that defines the structure you expect in any word processor, saying things like &#8220;this is a paragraph&#8221;, &#8220;this is an image&#8221;, &#8220;this is a table&#8221;, etc. It says that using tags using angle brackets that look like this: <code>&lt;p>This is a paragraph.&lt;/p></code>. Here&#8217;s a simple example of some HTML and the page it creates:</p>
+<p>HTML defines the structure of a page, it&#8217;s the &#8220;bones&#8221; if you will. It&#8217;s also where the actual content is, your words and pictures are in the HTML. You can think of HTML as code that defines the structure you expect in any word processor, saying things like &#8220;this is a paragraph&#8221;, &#8220;this is an image&#8221;, &#8220;this is a table&#8221;, etc. It does so with tags using angle brackets that look like this: <code>&lt;p>This is a paragraph.&lt;/p></code>. Here&#8217;s a simple example of some HTML and the page it creates:</p>
 
 
 
@@ -174,11 +174,11 @@
 
 
 
-<p>CSS stands for &#8220;Cascading Style Sheets&#8221; and can get pretty complicated, but it&#8217;s the language where a lot of that visual design we love comes from!  CSS defines the styles and formatting of the webpage content.  Fonts, colors, backgrounds, all defined in the page&#8217;s CSS.  Also layout things like how much space there is between elements or whether things should go on the right or the left are defined by CSS.</p>
+<p>CSS stands for &#8220;Cascading Style Sheets&#8221; and can get pretty complicated, but it&#8217;s the language where a lot of that visual design we love comes from! CSS defines the styles and formatting of the webpage content. Fonts, colors, backgrounds, etc are all defined in the page&#8217;s CSS. Also layout things like how much space there is between elements or whether things should go on the right or the left are defined by CSS.</p>
 
 
 
-<p>So when you selected your slide heading in Captivate and set it to be 36pt Helvetica in a nice dark blue, set your paragraphs to be 16pt not-quite-black, and decided the whole slide should have a nice cream background; Captivate wrote this for you:</p>
+<p>So when you select your slide heading in Adobe Captivate and set it to be 36pt Helvetica in a nice dark blue, set your paragraphs to be 16pt not-quite-black, and decide the whole slide should have a nice cream background; Captivate wrote this for you:</p>
 
 
 
@@ -210,7 +210,7 @@ body {
 
 
 
-<p>You&#8217;ll notice the list and link were not affected because my example didn&#8217;t &#8220;target&#8221; them.  That&#8217;s where CSS can get complicated; there are considerations about specificity, parent/child hierarchies, IDs and classes, and much more that goes into styling an entire site.  But again, just want the concepts to stick here: CSS is for style and formatting.  </p>
+<p>You&#8217;ll notice the list and link were not affected because my example didn&#8217;t &#8220;target&#8221; them. That&#8217;s where CSS can get complicated; there are considerations about specificity, parent/child hierarchies, IDs and classes, and much more that goes into styling an entire site. But again, just want the concept to stick here: CSS is for style and formatting.</p>
 
 
 
@@ -218,11 +218,11 @@ body {
 
 
 
-<p>Now the big boy. JavaScript (it actually has no relation to Java, don&#8217;t get them confused!) is what powers dynamic interactivity on the modern web. Whenever a website does something other than just show you something, Javascript was involved. If you click and something changes without reloading the page? JavaScript. Something pops up? JavaScript. </p>
+<p>Now the big boy. JavaScript (it actually has no relation to Java, don&#8217;t get them confused!) is what powers dynamic interactivity on the modern web. Whenever a website does something other than just show you something, JavaScript was involved. If you click and something changes without reloading the page? JavaScript. Something pops up? JavaScript.</p>
 
 
 
-<p>JavaScript is its own profession, but it&#8217;s also really critical to us because all that interactivity we count on in e-learning is powered by it!  In fact I would argue that the difference between a beginner in e-learning design and an expert is awareness of how Javascript can be used in our tools! Both Storyline and Captivate have powerful Javascript tools under the hood, and opening them up is the key to taking your content to the next level!  Many future articles will be around doing just that.  But for now, the simple demonstration:</p>
+<p>JavaScript is its own profession, but it&#8217;s also really critical to us because all that interactivity we count on in e-learning is powered by it! In fact I would argue that the difference between a beginner in e-learning and an expert is awareness of how JavaScript can be used in our tools! Both Storyline and Captivate have powerful JavaScript features under the hood, and using them is the key to taking your content to the next level! Many future articles will be around doing just that. But for now, the simple demonstration:</p>
 
 
 
@@ -263,6 +263,10 @@ body {
 
 
 
+<p>If you want see those examples combined, or even edit them to see what happens, they are here: <a href="https://codepen.io/charlesofalltrades/pen/zYQRKMw" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/charlesofalltrades/pen/zYQRKMw</a></p>
+
+
+
 <h2 class="wp-block-heading">Final thoughts</h2>
 
 
@@ -297,6 +301,60 @@ body {
 
 
 <li>And because of all that, we can approach our portfolio project as a website building project!</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">Resources</h3>
+
+
+
+<p>Want to actually learn all that code stuff?  Here are my suggested ways to do so:</p>
+
+
+
+<ul>
+<li>Interactive:
+<ul>
+<li><a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/" target="_blank" aria-label=" (opens in a new tab)" rel="noreferrer noopener" class="ek-link">FreeCodeCamp</a> is an outstanding (and free!) resource for interactive learning.  You can see the lesson, write your own code, and see your results all at the same time!  Feel free to pick and choose lessons if you are just trying to wrap your head around the basics, or do then entire curriculum and earn a certification!</li>
+
+
+
+<li><a href="https://www.codecademy.com/catalog/language/html-css" target="_blank" aria-label=" (opens in a new tab)" rel="noreferrer noopener" class="ek-link">Codecademy</a> is similar but not entirely free.  However they do have many free intro lessons and tend to be more entry level than FreeCodeCamp, which can feel overwhelming if you are starting from scratch.</li>
+</ul>
+</li>
+
+
+
+<li>Video Based (These are all from LinkedIn Learning, which I am a big fan of.  If you don&#8217;t get it through work, check your library, many have free access available!):
+<ul>
+<li><a aria-label=" (opens in a new tab)" href="https://www.linkedin.com/learning/practical-html-for-no-coders?u=2190394" target="_blank" rel="noreferrer noopener" class="ek-link">Practical HTML for No-Coders</a> &#8211; This is a great course for absolute beginners, I encourage you to take it even if you take nothing else on this list!</li>
+
+
+
+<li><a aria-label=" (opens in a new tab)" href="https://www.linkedin.com/learning/css-fundamentals-unlock-the-power-of-web-styling?u=2190394" target="_blank" rel="noreferrer noopener" class="ek-link">CSS Fundamentals: Unlock the Power of Web Styling</a> &#8211; CSS can get so complex that even an introductory course can go too deep.  This one&#8217;s not too bad, but feel free to skim some of it since you are not likely to write full stylesheets from scratch in the e-learning world. </li>
+
+
+
+<li><a href="https://www.linkedin.com/learning/programming-foundations-fundamentals-2011?u=2190394" target="_blank" aria-label=" (opens in a new tab)" rel="noreferrer noopener" class="ek-link">Programming Foundations: Fundamentals (2011)</a> &#8211; I owe my career to this course.  Some day I&#8217;ll explain that further, but for now know that it comes with the highest endorsement I can give.  It teaches basic programming concepts and uses JavaScript as its example language, which makes it perfect for our purposes.  Plus I could listen to Simon&#8217;s voice all day.  <em>However</em>, it is older and not considered current anymore, so maybe I shouldn&#8217;t recommend it as much as I do.
+<ul>
+<li><a href="https://www.linkedin.com/learning/programming-foundations-fundamentals-3?u=2190394" target="_blank" aria-label=" (opens in a new tab)" rel="noreferrer noopener" class="ek-link">Programming Foundations: Fundamentals</a> &#8211; This is the current programming intro course, and it is excellent.  Unfortunately it uses Python rather than JavaScript as its example language, which makes it not very applicable to our use case.</li>
+
+
+
+<li><a href="https://www.linkedin.com/learning/learning-the-javascript-language-22309208?u=2190394" target="_blank" aria-label=" (opens in a new tab)" rel="noreferrer noopener" class="ek-link">Learning the JavaScript Language</a> &#8211; I like this course for JavaScript specifically, but like the CSS course it can too much for just beginning.</li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+
+<li>Text Based (If you prefer to read!)
+<ul>
+<li><a href="https://www.theodinproject.com/paths/foundations/courses/foundations" target="_blank" aria-label=" (opens in a new tab)" rel="noreferrer noopener" class="ek-link">The Odin Project </a>is an incredible open source collection that does a great job of introducing concepts before diving into technicalities.</li>
+</ul>
+</li>
 </ul>
 ]]></content:encoded>
 					
