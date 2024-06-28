@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- Sitemap is generated on 2024-06-28 11:33:13 GMT -->
+	<url>
+		<loc>/</loc>
+		<lastmod>2024-05-07T14:53:00+00:00</lastmod>
+	</url>
+	<url>
+		<loc>/form-submitted/</loc>
+		<lastmod>2024-06-28T16:13:17+00:00</lastmod>
+	</url>
+	<url>
+		<loc>/images/</loc>
+		<lastmod>2024-06-27T22:34:11+00:00</lastmod>
+	</url>
+	<url>
+		<loc>/olivias-dragon-side-by-side/</loc>
+		<lastmod>2024-06-27T22:38:49+00:00</lastmod>
+	</url>
+	<url>
+		<loc>/contact/</loc>
+		<lastmod>2024-06-28T16:24:19+00:00</lastmod>
+	</url>
+	<url>
+		<loc>/portfolio/</loc>
+		<lastmod>2024-06-14T20:54:24+00:00</lastmod>
+	</url>
+	<url>
+		<loc>/resume/</loc>
+		<lastmod>2024-06-14T20:54:38+00:00</lastmod>
+	</url>
+	<url>
+		<loc>/blog/</loc>
+		<lastmod>2024-06-14T20:59:09+00:00</lastmod>
+	</url>
+	<url>
+		<loc>/blog/building-this-site-part-1-5-you-are-a-web-designer/</loc>
+		<lastmod>2024-06-21T13:59:26+00:00</lastmod>
+	</url>
+	<url>
+		<loc>/blog/building-this-site-part-1-overview/</loc>
+		<lastmod>2024-06-18T14:57:40+00:00</lastmod>
+	</url>
+	<url>
+		<loc>/blog/hello-world/</loc>
+		<lastmod>2024-06-18T14:57:02+00:00</lastmod>
+	</url>
+</urlset>
+<!-- Sitemap is served from cache -->
