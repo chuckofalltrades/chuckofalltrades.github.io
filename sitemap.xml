@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- Sitemap is generated on 2024-09-30 12:55:18 GMT -->
+<!-- Sitemap is generated on 2024-10-02 10:55:28 GMT -->
 	<url>
 		<loc>/</loc>
 		<lastmod>2024-05-07T14:53:00+00:00</lastmod>
@@ -36,7 +36,7 @@
 	</url>
 	<url>
 		<loc>/portfolio/beginner-excel-part-1-for-the-rutherford-county-library-system/</loc>
-		<lastmod>2024-09-30T17:29:58+00:00</lastmod>
+		<lastmod>2024-10-01T21:35:59+00:00</lastmod>
 	</url>
 	<url>
 		<loc>/blog/building-this-site-part-1-5-you-are-a-web-designer/</loc>
